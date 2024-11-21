@@ -1,5 +1,6 @@
 {
   "imports": {
-    "@evex/blackbox-ai": "jsr:@evex/blackbox-ai@^0.1.1"
+    "@evex/blackbox-ai": "jsr:@evex/blackbox-ai@^0.1.1",
+    "@ryu/enogu": "jsr:@ryu/enogu@^0.5.1"
   }
 }

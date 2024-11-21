@@ -1,16 +1,21 @@
 {
   "version": "4",
   "specifiers": {
-    "jsr:@evex/blackbox-ai@~0.1.1": "0.1.1"
+    "jsr:@evex/blackbox-ai@~0.1.1": "0.1.1",
+    "jsr:@ryu/enogu@~0.5.1": "0.5.1"
   },
   "jsr": {
     "@evex/blackbox-ai@0.1.1": {
       "integrity": "2acf43052dd562b97c18eceb3a2a428e2965deb3e8afb0a93813491ae9cad49f"
+    },
+    "@ryu/enogu@0.5.1": {
+      "integrity": "56677e1aab3b67434c5d60cfbd024044330030e868d26fed152e305a844b6270"
     }
   },
   "workspace": {
     "dependencies": [
-      "jsr:@evex/blackbox-ai@~0.1.1"
+      "jsr:@evex/blackbox-ai@~0.1.1",
+      "jsr:@ryu/enogu@~0.5.1"
     ]
   }
 }

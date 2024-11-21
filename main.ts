@@ -1,4 +1,5 @@
 import { BlackboxAI } from "@evex/blackbox-ai"
+import * as enogu from "@ryu/enogu"
 
 const ai = new BlackboxAI({
     "modelName": "gpt-4o"
@@ -11,10 +12,10 @@ const chatHistory: {
     content: string
 }[] = [
     {
-        content: "こんにちは！私と独自の言語を作成しましょう！お互いにルールを積極的に提案して、会話の中に含めて、最終的には作った言語で会話していきましょう！"
+        content: "しりとりしましょう。"
     },
     {
-        content: "分かりました。アルファベットの文字だけを使うのが良いと思います。"
+        content: "りんご"
     }
 ]
 
@@ -28,7 +29,7 @@ while (true) {
 
     const result1 = await user.generate(history1)
 
-    console.log(roles[0], result1, "\n")
+    console.log(enogu.red([roles[0], result1, "\n"].join(" ")))
 
     chatHistory.push({
         content: result1
@@ -43,7 +44,7 @@ while (true) {
 
     const result2 = await assistant.generate(history2)
 
-    console.log(roles[0], result2, "\n")
+    console.log(enogu.blue([roles[0], result2, "\n"].join(" ")))
 
     chatHistory.push({
         content: result2
