@@ -2,7 +2,7 @@ import { BlackboxAI } from "@evex/blackbox-ai"
 import * as enogu from "@ryu/enogu"
 
 const ai = new BlackboxAI({
-    "modelName": "gpt-4o"
+    "modelName": "claude-sonnet-3.5"
 })
 
 const user = await ai.startChat({})
