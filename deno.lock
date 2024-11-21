@@ -1,0 +1,16 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@evex/blackbox-ai@~0.1.1": "0.1.1"
+  },
+  "jsr": {
+    "@evex/blackbox-ai@0.1.1": {
+      "integrity": "2acf43052dd562b97c18eceb3a2a428e2965deb3e8afb0a93813491ae9cad49f"
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@evex/blackbox-ai@~0.1.1"
+    ]
+  }
+}

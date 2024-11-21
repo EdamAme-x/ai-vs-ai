@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "@evex/blackbox-ai": "jsr:@evex/blackbox-ai@^0.1.1"
+  }
+}
